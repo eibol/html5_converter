@@ -1,0 +1,444 @@
+ffmpeg started on 2013-03-18 at 02:08:11
+Report written to "ffmpeg-20130318-020811.log"
+Command line:
+"C:\\ffmpeg\\bin\\ffmpeg.exe" -i "E:\\Documentos\\Videos\\Racu_Caleta.MP4" -vcodec libvpx -b:v 600k -acodec libvorbis -ab 96k -f webm -y "E:\\Documentos\\Videos\\Racu_Caleta.MP4" -report
+ffmpeg version N-47062-g26c531c Copyright (c) 2000-2012 the FFmpeg developers
+  built on Nov 25 2012 12:25:21 with gcc 4.7.2 (GCC)
+  configuration: --enable-gpl --enable-version3 --disable-pthreads --enable-runtime-cpudetect --enable-avisynth --enable-bzlib --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-libnut --enable-libopenjpeg --enable-libopus --enable-librtmp --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libutvideo --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libxavs --enable-libxvid --enable-zlib
+  libavutil      52.  9.100 / 52.  9.100
+  libavcodec     54. 77.100 / 54. 77.100
+  libavformat    54. 37.100 / 54. 37.100
+  libavdevice    54.  3.100 / 54.  3.100
+  libavfilter     3. 23.102 /  3. 23.102
+  libswscale      2.  1.102 /  2.  1.102
+  libswresample   0. 17.101 /  0. 17.101
+  libpostproc    52.  2.100 / 52.  2.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0000000001faf480] Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0000000001faf480] ISO: File Type Major Brand: 3gp5
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0000000001faf480] File position before avformat_find_stream_info() is 7996242
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0000000001faf480] max_analyze_duration 5000000 reached at 5045378
+rfps: 7.500000 0.002002
+rfps: 7.500000 0.002002
+rfps: 7.583333 0.005404
+rfps: 7.583333 0.005404
+rfps: 15.000000 0.008008
+rfps: 15.000000 0.008008
+rfps: 15.083333 0.000856
+rfps: 22.500000 0.018019
+rfps: 22.500000 0.018019
+rfps: 22.583333 0.000311
+rfps: 22.583333 0.000311
+rfps: 22.666667 0.010517
+rfps: 30.083333 0.003771
+rfps: 30.083333 0.003771
+rfps: 30.166667 0.003423
+rfps: 37.583333 0.011235
+rfps: 37.583333 0.011235
+rfps: 37.666667 0.000332
+rfps: 37.750000 0.017342
+rfps: 45.166667 0.001246
+rfps: 45.166667 0.001246
+rfps: 45.250000 0.007701
+rfps: 52.666667 0.006163
+rfps: 52.666667 0.006163
+rfps: 52.750000 0.002064
+rfps: 14.985015 0.012255
+rfps: 14.985015 0.012255
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0000000001faf480] File position after avformat_find_stream_info() is 263174
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'E:\Documentos\Videos\Racu_Caleta.MP4':
+  Metadata:
+    major_brand     : 3gp5
+    minor_version   : 512
+    compatible_brands: vfj13gp43gp5mp42emp 
+    creation_time   : 2009-06-16 20:41:19
+    copyright       : 
+    copyright-eng   : 
+  Duration: 00:02:35.20, start: 0.000000, bitrate: 412 kb/s
+    Stream #0:0(jpn), 38, 1/1000: Video: mpeg4 (Simple Profile) (mp4v / 0x7634706D), yuv420p, 320x240 [SAR 1:1 DAR 4:3], 379 kb/s, 7.53 fps, 22.58 tbr, 1k tbn, 30 tbc
+    Metadata:
+      creation_time   : 2009-06-16 20:41:19
+      handler_name    : VideoHandler
+    Stream #0:1(jpn), 81, 1/16000: Audio: aac (mp4a / 0x6134706D), 16000 Hz, mono, s16, 31 kb/s
+    Metadata:
+      creation_time   : 2009-06-16 20:41:19
+      handler_name    : SoundHandler
+[buffer @ 00000000020ab280] Setting entry with key 'video_size' to value '320x240'
+[buffer @ 00000000020ab280] Setting entry with key 'pix_fmt' to value '0'
+[buffer @ 00000000020ab280] Setting entry with key 'time_base' to value '1/1000'
+[buffer @ 00000000020ab280] Setting entry with key 'pixel_aspect' to value '1/1'
+[buffer @ 00000000020ab280] Setting entry with key 'sws_param' to value 'flags=2'
+[buffer @ 00000000020ab280] Setting entry with key 'frame_rate' to value '271/12'
+[graph 0 input from stream 0:0 @ 0000000003d5d2a0] w:320 h:240 pixfmt:yuv420p tb:1/1000 fr:271/12 sar:1/1 sws_param:flags=2
+[abuffer @ 00000000020997e0] Setting entry with key 'time_base' to value '1/16000'
+[abuffer @ 00000000020997e0] Setting entry with key 'sample_rate' to value '16000'
+[abuffer @ 00000000020997e0] Setting entry with key 'sample_fmt' to value 's16'
+[abuffer @ 00000000020997e0] Setting entry with key 'channel_layout' to value '0x4'
+[graph 1 input from stream 0:1 @ 0000000003d5d4e0] tb:1/16000 samplefmt:s16 samplerate:16000 chlayout:0x4
+[aformat @ 000000000209b880] Setting entry with key 'sample_fmts' to value 'fltp'
+[audio format for output stream 0:1 @ 0000000003d5d600] auto-inserting filter 'auto-inserted resampler 0' between the filter 'Parsed_anull_0' and the filter 'audio format for output stream 0:1'
+[auto-inserted resampler 0 @ 0000000003d5d680] chl:mono fmt:s16 r:16000Hz -> chl:mono fmt:fltp r:16000Hz
+[libvpx @ 000000000200f560] v1.1.0
+[libvpx @ 000000000200f560] --target=x86_64-win64-gcc --prefix=/home/kyle/software/ffmpeg/packages/libvpx/libvpx-1.1.0-win64
+[libvpx @ 000000000200f560] vpx_codec_enc_cfg
+[libvpx @ 000000000200f560] generic settings
+  g_usage:                      0
+  g_threads:                    0
+  g_profile:                    0
+  g_w:                          320
+  g_h:                          240
+  g_timebase:                   {1/30}
+  g_error_resilient:            0
+  g_pass:                       0
+  g_lag_in_frames:              0
+[libvpx @ 000000000200f560] rate control settings
+  rc_dropframe_thresh:          0
+  rc_resize_allowed:            0
+  rc_resize_up_thresh:          60
+  rc_resize_down_thresh:        30
+  rc_end_usage:                 0
+  rc_twopass_stats_in:          0000000000000000(0)
+  rc_target_bitrate:            256
+[libvpx @ 000000000200f560] quantizer settings
+  rc_min_quantizer:             4
+  rc_max_quantizer:             63
+[libvpx @ 000000000200f560] bitrate tolerance
+  rc_undershoot_pct:            100
+  rc_overshoot_pct:             100
+[libvpx @ 000000000200f560] decoder buffer model
+  rc_buf_sz:                    6000
+  rc_buf_initial_sz:            4000
+  rc_buf_optimal_sz:            5000
+[libvpx @ 000000000200f560] 2 pass rate control settings
+  rc_2pass_vbr_bias_pct:        50
+  rc_2pass_vbr_minsection_pct:  0
+  rc_2pass_vbr_maxsection_pct:  400
+[libvpx @ 000000000200f560] keyframing settings
+  kf_mode:                      1
+  kf_min_dist:                  0
+  kf_max_dist:                  128
+[libvpx @ 000000000200f560] 
+[libvpx @ 000000000200f560] vpx_codec_enc_cfg
+[libvpx @ 000000000200f560] generic settings
+  g_usage:                      0
+  g_threads:                    0
+  g_profile:                    0
+  g_w:                          320
+  g_h:                          240
+  g_timebase:                   {12/271}
+  g_error_resilient:            0
+  g_pass:                       0
+  g_lag_in_frames:              25
+[libvpx @ 000000000200f560] rate control settings
+  rc_dropframe_thresh:          0
+  rc_resize_allowed:            0
+  rc_resize_up_thresh:          60
+  rc_resize_down_thresh:        30
+  rc_end_usage:                 0
+  rc_twopass_stats_in:          0000000000000000(0)
+  rc_target_bitrate:            600
+[libvpx @ 000000000200f560] quantizer settings
+  rc_min_quantizer:             4
+  rc_max_quantizer:             63
+[libvpx @ 000000000200f560] bitrate tolerance
+  rc_undershoot_pct:            100
+  rc_overshoot_pct:             100
+[libvpx @ 000000000200f560] decoder buffer model
+  rc_buf_sz:                    6000
+  rc_buf_initial_sz:            4000
+  rc_buf_optimal_sz:            5000
+[libvpx @ 000000000200f560] 2 pass rate control settings
+  rc_2pass_vbr_bias_pct:        50
+  rc_2pass_vbr_minsection_pct:  0
+  rc_2pass_vbr_maxsection_pct:  400
+[libvpx @ 000000000200f560] keyframing settings
+  kf_mode:                      1
+  kf_min_dist:                  0
+  kf_max_dist:                  128
+[libvpx @ 000000000200f560] 
+[libvpx @ 000000000200f560] vpx_codec_control
+[libvpx @ 000000000200f560]   VP8E_SET_CPUUSED:             3
+[libvpx @ 000000000200f560]   VP8E_SET_ARNR_MAXFRAMES:      0
+[libvpx @ 000000000200f560]   VP8E_SET_ARNR_STRENGTH:       3
+[libvpx @ 000000000200f560]   VP8E_SET_ARNR_TYPE:           3
+[libvpx @ 000000000200f560]   VP8E_SET_NOISE_SENSITIVITY:   0
+[libvpx @ 000000000200f560]   VP8E_SET_TOKEN_PARTITIONS:    0
+[libvpx @ 000000000200f560]   VP8E_SET_STATIC_THRESHOLD:    0
+[libvpx @ 000000000200f560]   VP8E_SET_CQ_LEVEL:            0
+[libvpx @ 000000000200f560] Using deadline: 1000000
+[mpeg4 @ 0000000001ffbb00] detected 4 logical cores
+Output #0, webm, to 'E:\Documentos\Videos\Racu_Caleta.MP4':
+  Metadata:
+    major_brand     : 3gp5
+    minor_version   : 512
+    compatible_brands: vfj13gp43gp5mp42emp 
+    copyright-eng   : 
+    copyright       : 
+    encoder         : Lavf54.37.100
+    Stream #0:0(jpn), 0, 1/1000: Video: vp8, yuv420p, 320x240 [SAR 1:1 DAR 4:3], q=-1--1, 600 kb/s, 1k tbn, 22.58 tbc
+    Metadata:
+      creation_time   : 2009-06-16 20:41:19
+      handler_name    : VideoHandler
+    Stream #0:1(jpn), 0, 1/1000: Audio: vorbis, 16000 Hz, mono, fltp, 96 kb/s
+    Metadata:
+      creation_time   : 2009-06-16 20:41:19
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (mpeg4 -> libvpx)
+  Stream #0:1 -> #0:1 (aac -> libvorbis)
+Press [q] to stop, [?] for help
+[webm @ 0000000002096120] Writing block at offset 4182, size 175, pts 0, dts 0, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 4364, size 15159, pts 16, dts 16, duration 44, flags 128
+[webm @ 0000000002096120] Writing block at offset 19530, size 171, pts 16, dts 16, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 19708, size 171, pts 32, dts 32, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 19886, size 168, pts 48, dts 48, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 20061, size 230, pts 64, dts 64, duration 24, flags 128
+[webm @ 0000000002096120] Writing block at offset 20298, size 236, pts 88, dts 88, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 20541, size 227, pts 120, dts 120, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 20775, size 7096, pts 149, dts 149, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 27878, size 232, pts 152, dts 152, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 28117, size 222, pts 184, dts 184, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 28346, size 168, pts 216, dts 216, duration 24, flags 128
+[webm @ 0000000002096120] Writing block at offset 28521, size 170, pts 240, dts 240, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 28698, size 235, pts 256, dts 256, duration 24, flags 128
+[webm @ 0000000002096120] Writing block at offset 28940, size 232, pts 280, dts 280, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 29179, size 5595, pts 282, dts 282, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 34781, size 238, pts 312, dts 312, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 35026, size 239, pts 344, dts 344, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 35272, size 234, pts 376, dts 376, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 35513, size 233, pts 408, dts 408, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 35753, size 6960, pts 415, dts 415, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 42720, size 239, pts 440, dts 440, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 42966, size 233, pts 472, dts 472, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 43206, size 236, pts 504, dts 504, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 43449, size 231, pts 536, dts 536, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 43687, size 7666, pts 547, dts 547, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 51360, size 231, pts 568, dts 568, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 51598, size 232, pts 600, dts 600, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 51837, size 227, pts 632, dts 632, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 52071, size 230, pts 664, dts 664, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 52308, size 7236, pts 680, dts 680, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 59551, size 232, pts 696, dts 696, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 59790, size 233, pts 728, dts 728, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 60030, size 231, pts 760, dts 760, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 60268, size 232, pts 792, dts 792, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 60507, size 8395, pts 813, dts 813, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 68909, size 228, pts 824, dts 824, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 69144, size 229, pts 856, dts 856, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 69380, size 232, pts 888, dts 888, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 69619, size 229, pts 920, dts 920, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 69855, size 8619, pts 946, dts 946, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 78481, size 227, pts 952, dts 952, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 78715, size 228, pts 984, dts 984, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 78950, size 233, pts 1016, dts 1016, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 79190, size 224, pts 1048, dts 1048, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 79421, size 7599, pts 1079, dts 1079, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 87027, size 229, pts 1080, dts 1080, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 87263, size 227, pts 1112, dts 1112, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 87497, size 233, pts 1144, dts 1144, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 87737, size 233, pts 1176, dts 1176, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 87977, size 231, pts 1208, dts 1208, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 88215, size 7789, pts 1212, dts 1212, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 96011, size 229, pts 1240, dts 1240, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 96247, size 218, pts 1272, dts 1272, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 96472, size 224, pts 1304, dts 1304, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 96703, size 230, pts 1336, dts 1336, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 96940, size 8402, pts 1344, dts 1344, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 105349, size 227, pts 1368, dts 1368, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 105583, size 236, pts 1400, dts 1400, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 105826, size 236, pts 1432, dts 1432, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 106069, size 229, pts 1464, dts 1464, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 106305, size 8578, pts 1477, dts 1477, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 114890, size 237, pts 1496, dts 1496, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 115134, size 232, pts 1528, dts 1528, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 115373, size 235, pts 1560, dts 1560, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 115615, size 171, pts 1592, dts 1592, duration 24, flags 128
+[webm @ 0000000002096120] Writing block at offset 115793, size 8307, pts 1610, dts 1610, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 124107, size 175, pts 1616, dts 1616, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 124289, size 236, pts 1632, dts 1632, duration 24, flags 128
+[webm @ 0000000002096120] Writing block at offset 124532, size 222, pts 1656, dts 1656, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 124761, size 230, pts 1688, dts 1688, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 124998, size 228, pts 1720, dts 1720, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 125233, size 8432, pts 1743, dts 1743, duration 44, flags 0
+[mpeg4 @ 0000000003ce0dc0] cbpc damaged at 11 9
+[mpeg4 @ 0000000003ce0dc0] Error at MB: 200
+[webm @ 0000000002096120] Writing block at offset 133672, size 231, pts 1752, dts 1752, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 133910, size 234, pts 1784, dts 1784, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 134151, size 236, pts 1816, dts 1816, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 134394, size 232, pts 1848, dts 1848, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 134633, size 10585, pts 1876, dts 1876, duration 44, flags 0
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0000000001faf480] stream 1, offset 0x487b7: partial file
+E:\Documentos\Videos\Racu_Caleta.MP4: Invalid data found when processing input
+[mpeg4 @ 0000000003ce0dc0] concealing 159 DC, 159 AC, 159 MV errors in P frame
+[output stream 0:0 @ 0000000003d5d320] EOF on sink link output stream 0:0:default.
+[webm @ 0000000002096120] Writing block at offset 145225, size 232, pts 1880, dts 1880, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 145464, size 229, pts 1912, dts 1912, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 145700, size 234, pts 1944, dts 1944, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 145941, size 226, pts 1976, dts 1976, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 146174, size 227, pts 2008, dts 2008, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 146408, size 7136, pts 2009, dts 2009, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 153551, size 233, pts 2040, dts 2040, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 153791, size 224, pts 2072, dts 2072, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 154022, size 232, pts 2104, dts 2104, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 154261, size 231, pts 2136, dts 2136, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 154499, size 9599, pts 2141, dts 2141, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 164105, size 115, pts 2168, dts 2168, duration 24, flags 128
+[webm @ 0000000002096120] Writing block at offset 164226, size 177, pts 2192, dts 2192, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 164410, size 165, pts 2208, dts 2208, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 164582, size 168, pts 2224, dts 2224, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 164757, size 164, pts 2240, dts 2240, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 164928, size 158, pts 2256, dts 2256, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 165093, size 121, pts 2272, dts 2272, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 165220, size 10498, pts 2274, dts 2274, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 175725, size 170, pts 2288, dts 2288, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 175902, size 181, pts 2304, dts 2304, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 176090, size 172, pts 2320, dts 2320, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 176269, size 229, pts 2336, dts 2336, duration 24, flags 128
+[webm @ 0000000002096120] Writing block at offset 176505, size 233, pts 2360, dts 2360, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 176745, size 234, pts 2392, dts 2392, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 176986, size 10492, pts 2407, dts 2407, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 187485, size 228, pts 2424, dts 2424, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 187720, size 231, pts 2456, dts 2456, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 187958, size 241, pts 2488, dts 2488, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 188206, size 235, pts 2520, dts 2520, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 188448, size 11319, pts 2540, dts 2540, duration 44, flags 0
+[output stream 0:1 @ 0000000003d5d560] EOF on sink link output stream 0:1:default.
+No more output streams to write to, finishing.
+[webm @ 0000000002096120] Writing block at offset 199774, size 222, pts 2552, dts 2552, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 200003, size 227, pts 2584, dts 2584, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 200237, size 216, pts 2616, dts 2616, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 200460, size 220, pts 2648, dts 2648, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 200687, size 7573, pts 2673, dts 2673, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 208267, size 213, pts 2680, dts 2680, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 208487, size 223, pts 2712, dts 2712, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 208717, size 166, pts 2744, dts 2744, duration 24, flags 128
+[webm @ 0000000002096120] Writing block at offset 208890, size 169, pts 2768, dts 2768, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 209066, size 219, pts 2784, dts 2784, duration 24, flags 128
+[webm @ 0000000002096120] Writing block at offset 209292, size 12665, pts 2806, dts 2806, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 221964, size 215, pts 2808, dts 2808, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 222186, size 218, pts 2840, dts 2840, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 222411, size 219, pts 2872, dts 2872, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 222637, size 217, pts 2904, dts 2904, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 222861, size 228, pts 2936, dts 2936, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 223096, size 7158, pts 2939, dts 2939, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 230261, size 227, pts 2968, dts 2968, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 230495, size 229, pts 3000, dts 3000, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 230731, size 228, pts 3032, dts 3032, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 230966, size 226, pts 3064, dts 3064, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 231199, size 9243, pts 3071, dts 3071, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 240449, size 228, pts 3096, dts 3096, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 240684, size 226, pts 3128, dts 3128, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 240917, size 227, pts 3160, dts 3160, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 241151, size 228, pts 3192, dts 3192, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 241386, size 10952, pts 3204, dts 3204, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 252345, size 230, pts 3224, dts 3224, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 252582, size 240, pts 3256, dts 3256, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 252829, size 230, pts 3288, dts 3288, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 253066, size 239, pts 3320, dts 3320, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 253312, size 9850, pts 3337, dts 3337, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 263169, size 232, pts 3352, dts 3352, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 263408, size 231, pts 3384, dts 3384, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 263646, size 238, pts 3416, dts 3416, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 263891, size 121, pts 3448, dts 3448, duration 24, flags 128
+[webm @ 0000000002096120] Writing block at offset 264018, size 9686, pts 3470, dts 3470, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 273711, size 174, pts 3472, dts 3472, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 273892, size 178, pts 3488, dts 3488, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 274077, size 176, pts 3504, dts 3504, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 274260, size 238, pts 3520, dts 3520, duration 24, flags 128
+[webm @ 0000000002096120] Writing block at offset 274505, size 236, pts 3544, dts 3544, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 274748, size 237, pts 3576, dts 3576, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 274992, size 8880, pts 3603, dts 3603, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 283879, size 239, pts 3608, dts 3608, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 284125, size 235, pts 3640, dts 3640, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 284367, size 235, pts 3672, dts 3672, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 284609, size 230, pts 3704, dts 3704, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 284846, size 11120, pts 3736, dts 3736, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 295973, size 225, pts 3736, dts 3736, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 296205, size 222, pts 3768, dts 3768, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 296434, size 229, pts 3800, dts 3800, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 296670, size 117, pts 3832, dts 3832, duration 24, flags 128
+[webm @ 0000000002096120] Writing block at offset 296793, size 167, pts 3856, dts 3856, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 296967, size 10231, pts 3868, dts 3868, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 307205, size 170, pts 3872, dts 3872, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 307382, size 167, pts 3888, dts 3888, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 307556, size 233, pts 3904, dts 3904, duration 24, flags 128
+[webm @ 0000000002096120] Writing block at offset 307796, size 234, pts 3928, dts 3928, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 308037, size 228, pts 3960, dts 3960, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 308272, size 227, pts 3992, dts 3992, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 308506, size 8626, pts 4001, dts 4001, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 317139, size 225, pts 4024, dts 4024, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 317371, size 225, pts 4056, dts 4056, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 317603, size 169, pts 4088, dts 4088, duration 24, flags 128
+[webm @ 0000000002096120] Writing block at offset 317779, size 171, pts 4112, dts 4112, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 317957, size 232, pts 4128, dts 4128, duration 24, flags 128
+[webm @ 0000000002096120] Writing block at offset 318196, size 9890, pts 4134, dts 4134, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 328093, size 220, pts 4152, dts 4152, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 328320, size 217, pts 4184, dts 4184, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 328544, size 219, pts 4216, dts 4216, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 328770, size 213, pts 4248, dts 4248, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 328990, size 8557, pts 4267, dts 4267, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 337554, size 223, pts 4280, dts 4280, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 337784, size 216, pts 4312, dts 4312, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 338007, size 219, pts 4344, dts 4344, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 338233, size 229, pts 4376, dts 4376, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 338469, size 9091, pts 4400, dts 4400, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 347567, size 221, pts 4408, dts 4408, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 347795, size 226, pts 4440, dts 4440, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 348028, size 222, pts 4472, dts 4472, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 348257, size 221, pts 4504, dts 4504, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 348485, size 9560, pts 4533, dts 4533, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 358052, size 223, pts 4536, dts 4536, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 358282, size 224, pts 4568, dts 4568, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 358513, size 225, pts 4600, dts 4600, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 358745, size 229, pts 4632, dts 4632, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 358981, size 227, pts 4664, dts 4664, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 359215, size 11126, pts 4665, dts 4665, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 370348, size 232, pts 4696, dts 4696, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 370587, size 230, pts 4728, dts 4728, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 370824, size 233, pts 4760, dts 4760, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 371064, size 227, pts 4792, dts 4792, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 371298, size 8140, pts 4798, dts 4798, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 379445, size 228, pts 4824, dts 4824, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 379680, size 234, pts 4856, dts 4856, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 379921, size 231, pts 4888, dts 4888, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 380159, size 219, pts 4920, dts 4920, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 380385, size 8316, pts 4931, dts 4931, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 388708, size 220, pts 4952, dts 4952, duration 32, flags 128
+[webm @ 0000000002096120] Starting new cluster at offset 388935 bytes, pts 5016
+[webm @ 0000000002096120] Writing block at offset 388951, size 231, pts 4984, dts 4984, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 389189, size 232, pts 5016, dts 5016, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 389428, size 225, pts 5048, dts 5048, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 389660, size 10944, pts 5064, dts 5064, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 400611, size 231, pts 5080, dts 5080, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 400849, size 219, pts 5112, dts 5112, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 401075, size 224, pts 5144, dts 5144, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 401306, size 224, pts 5176, dts 5176, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 401537, size 11152, pts 5197, dts 5197, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 412696, size 229, pts 5208, dts 5208, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 412932, size 232, pts 5240, dts 5240, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 413171, size 232, pts 5272, dts 5272, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 413410, size 227, pts 5304, dts 5304, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 413644, size 8891, pts 5330, dts 5330, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 422542, size 227, pts 5336, dts 5336, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 422776, size 225, pts 5368, dts 5368, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 423008, size 224, pts 5400, dts 5400, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 423239, size 221, pts 5432, dts 5432, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 423467, size 8965, pts 5462, dts 5462, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 432439, size 220, pts 5464, dts 5464, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 432666, size 227, pts 5496, dts 5496, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 432900, size 225, pts 5528, dts 5528, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 433132, size 223, pts 5560, dts 5560, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 433362, size 223, pts 5592, dts 5592, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 433592, size 11148, pts 5595, dts 5595, duration 44, flags 0
+[webm @ 0000000002096120] Writing block at offset 444747, size 219, pts 5624, dts 5624, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 444973, size 224, pts 5656, dts 5656, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 445204, size 225, pts 5688, dts 5688, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 445436, size 225, pts 5720, dts 5720, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 445668, size 6206, pts 5728, dts 5728, duration 44, flags 0
+Writing block at offset 451881, size 230, pts 5752, dts 5752, duration 32, flags 128
+[webm @ 0000000002096120] Writing block at offset 452118, size 122, pts 5784, dts 5784, duration 24, flags 128
+[webm @ 0000000002096120] Writing block at offset 452246, size 174, pts 5808, dts 5808, duration 16, flags 128
+[webm @ 0000000002096120] Writing block at offset 452427, size 170, pts 5824, dts 5824, duration 16, flags 128
+[webm @ 0000000002096120] end duration = 5840
+frame=   44 fps=0.0 q=0.0 Lsize=     442kB time=00:00:05.81 bitrate= 623.0kbits/s    
+video:394kB audio:42kB subtitle:0 global headers:4kB muxing overhead 0.502256%
+[AVIOContext @ 0000000001fafa20] Statistics: 360080 bytes read, 2 seeks

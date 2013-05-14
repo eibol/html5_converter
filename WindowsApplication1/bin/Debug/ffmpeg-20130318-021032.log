@@ -1,0 +1,159 @@
+ffmpeg started on 2013-03-18 at 02:10:32
+Report written to "ffmpeg-20130318-021032.log"
+Command line:
+"C:\\ffmpeg\\bin\\ffmpeg.exe" -i "E:\\Documentos\\Videos\\Racu_Caleta.MP4" -vcodec libvpx -b:v 600k -acodec libvorbis -ab 96k -f webm -y "E:\\Documentos\\Videos\\Racu_Caleta.MP4" -report
+ffmpeg version N-47062-g26c531c Copyright (c) 2000-2012 the FFmpeg developers
+  built on Nov 25 2012 12:25:21 with gcc 4.7.2 (GCC)
+  configuration: --enable-gpl --enable-version3 --disable-pthreads --enable-runtime-cpudetect --enable-avisynth --enable-bzlib --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-libnut --enable-libopenjpeg --enable-libopus --enable-librtmp --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libutvideo --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libxavs --enable-libxvid --enable-zlib
+  libavutil      52.  9.100 / 52.  9.100
+  libavcodec     54. 77.100 / 54. 77.100
+  libavformat    54. 37.100 / 54. 37.100
+  libavdevice    54.  3.100 / 54.  3.100
+  libavfilter     3. 23.102 /  3. 23.102
+  libswscale      2.  1.102 /  2.  1.102
+  libswresample   0. 17.101 /  0. 17.101
+  libpostproc    52.  2.100 / 52.  2.100
+[matroska,webm @ 000000000037f480] Format matroska,webm probed with size=2048 and score=100
+st:0 removing common factor 1000000 from timebase
+st:1 removing common factor 1000000 from timebase
+[matroska,webm @ 000000000037f480] File position before avformat_find_stream_info() is 4177
+[matroska,webm @ 000000000037f480] All info found
+[matroska,webm @ 000000000037f480] File position after avformat_find_stream_info() is 19509
+Input #0, matroska,webm, from 'E:\Documentos\Videos\Racu_Caleta.MP4':
+  Duration: 00:00:00.32, start: 0.000000, bitrate: 725 kb/s
+    Stream #0:0(jpn), 1, 1/1000: Video: vp8, yuv420p, 320x240, SAR 1:1 DAR 4:3, 22.58 fps, 22.58 tbr, 1k tbn, 1k tbc (default)
+    Stream #0:1(jpn), 1, 1/1000: Audio: vorbis, 16000 Hz, mono, fltp (default)
+[buffer @ 0000000001f199e0] Setting entry with key 'video_size' to value '320x240'
+[buffer @ 0000000001f199e0] Setting entry with key 'pix_fmt' to value '0'
+[buffer @ 0000000001f199e0] Setting entry with key 'time_base' to value '1/1000'
+[buffer @ 0000000001f199e0] Setting entry with key 'pixel_aspect' to value '1/1'
+[buffer @ 0000000001f199e0] Setting entry with key 'sws_param' to value 'flags=2'
+[buffer @ 0000000001f199e0] Setting entry with key 'frame_rate' to value '271/12'
+[graph 0 input from stream 0:0 @ 0000000001f19900] w:320 h:240 pixfmt:yuv420p tb:1/1000 fr:271/12 sar:1/1 sws_param:flags=2
+[abuffer @ 0000000001f908e0] Setting entry with key 'time_base' to value '1/16000'
+[abuffer @ 0000000001f908e0] Setting entry with key 'sample_rate' to value '16000'
+[abuffer @ 0000000001f908e0] Setting entry with key 'sample_fmt' to value 'fltp'
+[abuffer @ 0000000001f908e0] Setting entry with key 'channel_layout' to value '0x4'
+[graph 1 input from stream 0:1 @ 0000000001f92840] tb:1/16000 samplefmt:fltp samplerate:16000 chlayout:0x4
+[aformat @ 0000000001f9dea0] Setting entry with key 'sample_fmts' to value 'fltp'
+[libvpx @ 0000000001f0db40] v1.1.0
+[libvpx @ 0000000001f0db40] --target=x86_64-win64-gcc --prefix=/home/kyle/software/ffmpeg/packages/libvpx/libvpx-1.1.0-win64
+[libvpx @ 0000000001f0db40] vpx_codec_enc_cfg
+[libvpx @ 0000000001f0db40] generic settings
+  g_usage:                      0
+  g_threads:                    0
+  g_profile:                    0
+  g_w:                          320
+  g_h:                          240
+  g_timebase:                   {1/30}
+  g_error_resilient:            0
+  g_pass:                       0
+  g_lag_in_frames:              0
+[libvpx @ 0000000001f0db40] rate control settings
+  rc_dropframe_thresh:          0
+  rc_resize_allowed:            0
+  rc_resize_up_thresh:          60
+  rc_resize_down_thresh:        30
+  rc_end_usage:                 0
+  rc_twopass_stats_in:          0000000000000000(0)
+  rc_target_bitrate:            256
+[libvpx @ 0000000001f0db40] quantizer settings
+  rc_min_quantizer:             4
+  rc_max_quantizer:             63
+[libvpx @ 0000000001f0db40] bitrate tolerance
+  rc_undershoot_pct:            100
+  rc_overshoot_pct:             100
+[libvpx @ 0000000001f0db40] decoder buffer model
+  rc_buf_sz:                    6000
+  rc_buf_initial_sz:            4000
+  rc_buf_optimal_sz:            5000
+[libvpx @ 0000000001f0db40] 2 pass rate control settings
+  rc_2pass_vbr_bias_pct:        50
+  rc_2pass_vbr_minsection_pct:  0
+  rc_2pass_vbr_maxsection_pct:  400
+[libvpx @ 0000000001f0db40] keyframing settings
+  kf_mode:                      1
+  kf_min_dist:                  0
+  kf_max_dist:                  128
+[libvpx @ 0000000001f0db40] 
+[libvpx @ 0000000001f0db40] vpx_codec_enc_cfg
+[libvpx @ 0000000001f0db40] generic settings
+  g_usage:                      0
+  g_threads:                    0
+  g_profile:                    0
+  g_w:                          320
+  g_h:                          240
+  g_timebase:                   {12/271}
+  g_error_resilient:            0
+  g_pass:                       0
+  g_lag_in_frames:              25
+[libvpx @ 0000000001f0db40] rate control settings
+  rc_dropframe_thresh:          0
+  rc_resize_allowed:            0
+  rc_resize_up_thresh:          60
+  rc_resize_down_thresh:        30
+  rc_end_usage:                 0
+  rc_twopass_stats_in:          0000000000000000(0)
+  rc_target_bitrate:            600
+[libvpx @ 0000000001f0db40] quantizer settings
+  rc_min_quantizer:             4
+  rc_max_quantizer:             63
+[libvpx @ 0000000001f0db40] bitrate tolerance
+  rc_undershoot_pct:            100
+  rc_overshoot_pct:             100
+[libvpx @ 0000000001f0db40] decoder buffer model
+  rc_buf_sz:                    6000
+  rc_buf_initial_sz:            4000
+  rc_buf_optimal_sz:            5000
+[libvpx @ 0000000001f0db40] 2 pass rate control settings
+  rc_2pass_vbr_bias_pct:        50
+  rc_2pass_vbr_minsection_pct:  0
+  rc_2pass_vbr_maxsection_pct:  400
+[libvpx @ 0000000001f0db40] keyframing settings
+  kf_mode:                      1
+  kf_min_dist:                  0
+  kf_max_dist:                  128
+[libvpx @ 0000000001f0db40] 
+[libvpx @ 0000000001f0db40] vpx_codec_control
+[libvpx @ 0000000001f0db40]   VP8E_SET_CPUUSED:             3
+[libvpx @ 0000000001f0db40]   VP8E_SET_ARNR_MAXFRAMES:      0
+[libvpx @ 0000000001f0db40]   VP8E_SET_ARNR_STRENGTH:       3
+[libvpx @ 0000000001f0db40]   VP8E_SET_ARNR_TYPE:           3
+[libvpx @ 0000000001f0db40]   VP8E_SET_NOISE_SENSITIVITY:   0
+[libvpx @ 0000000001f0db40]   VP8E_SET_TOKEN_PARTITIONS:    0
+[libvpx @ 0000000001f0db40]   VP8E_SET_STATIC_THRESHOLD:    0
+[libvpx @ 0000000001f0db40]   VP8E_SET_CQ_LEVEL:            0
+[libvpx @ 0000000001f0db40] Using deadline: 1000000
+[vp8 @ 0000000001f00b20] detected 4 logical cores
+Output #0, webm, to 'E:\Documentos\Videos\Racu_Caleta.MP4':
+  Metadata:
+    encoder         : Lavf54.37.100
+    Stream #0:0(jpn), 0, 1/1000: Video: vp8, yuv420p, 320x240 [SAR 1:1 DAR 4:3], q=-1--1, 600 kb/s, 1k tbn, 22.58 tbc (default)
+    Stream #0:1(jpn), 0, 1/1000: Audio: vorbis, 16000 Hz, mono, fltp, 96 kb/s (default)
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp8 -> libvpx)
+  Stream #0:1 -> #0:1 (vorbis -> libvorbis)
+Press [q] to stop, [?] for help
+[output stream 0:0 @ 0000000001f19ca0] EOF on sink link output stream 0:0:default.
+[output stream 0:1 @ 0000000001f928e0] EOF on sink link output stream 0:1:default.
+No more output streams to write to, finishing.
+[webm @ 0000000001f0d2a0] Writing block at offset 4188, size 15131, pts 0, dts 0, duration 44, flags 128
+[webm @ 0000000001f0d2a0] Writing block at offset 19326, size 173, pts 0, dts 0, duration 16, flags 128
+[webm @ 0000000001f0d2a0] Writing block at offset 19506, size 171, pts 16, dts 16, duration 16, flags 128
+[webm @ 0000000001f0d2a0] Writing block at offset 19684, size 169, pts 32, dts 32, duration 16, flags 128
+[webm @ 0000000001f0d2a0] Writing block at offset 19860, size 168, pts 48, dts 48, duration 16, flags 128
+[webm @ 0000000001f0d2a0] Writing block at offset 20035, size 213, pts 64, dts 64, duration 24, flags 128
+[webm @ 0000000001f0d2a0] Writing block at offset 20255, size 213, pts 88, dts 88, duration 32, flags 128
+[webm @ 0000000001f0d2a0] Writing block at offset 20475, size 212, pts 120, dts 120, duration 32, flags 128
+[webm @ 0000000001f0d2a0] Writing block at offset 20694, size 6898, pts 133, dts 133, duration 44, flags 0
+Writing block at offset 27599, size 217, pts 152, dts 152, duration 32, flags 128
+[webm @ 0000000001f0d2a0] Writing block at offset 27823, size 209, pts 184, dts 184, duration 32, flags 128
+[webm @ 0000000001f0d2a0] Writing block at offset 28039, size 167, pts 216, dts 216, duration 24, flags 128
+[webm @ 0000000001f0d2a0] Writing block at offset 28213, size 166, pts 240, dts 240, duration 16, flags 128
+[webm @ 0000000001f0d2a0] Writing block at offset 28386, size 217, pts 256, dts 256, duration 24, flags 128
+[webm @ 0000000001f0d2a0] Writing block at offset 28610, size 165, pts 280, dts 280, duration 24, flags 128
+[webm @ 0000000001f0d2a0] Writing block at offset 28782, size 171, pts 304, dts 304, duration 16, flags 128
+[webm @ 0000000001f0d2a0] end duration = 320
+frame=    2 fps=0.0 q=0.0 Lsize=      28kB time=00:00:00.30 bitrate= 752.9kbits/s    
+video:22kB audio:3kB subtitle:0 global headers:4kB muxing overhead 2.358924%
+[AVIOContext @ 000000000037fa20] Statistics: 29019 bytes read, 0 seeks

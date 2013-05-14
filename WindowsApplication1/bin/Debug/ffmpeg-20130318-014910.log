@@ -1,0 +1,109 @@
+ffmpeg started on 2013-03-18 at 01:49:10
+Report written to "ffmpeg-20130318-014910.log"
+Command line:
+"C:\\ffmpeg\\bin\\ffmpeg.exe" -i "E:\\Documentos\\Videos\\test - 3.mp4" -c copy -f flv -y "E:\\Documentos\\Videos\\test - 3.flv" -report
+ffmpeg version N-47062-g26c531c Copyright (c) 2000-2012 the FFmpeg developers
+  built on Nov 25 2012 12:25:21 with gcc 4.7.2 (GCC)
+  configuration: --enable-gpl --enable-version3 --disable-pthreads --enable-runtime-cpudetect --enable-avisynth --enable-bzlib --enable-frei0r --enable-libass --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-libnut --enable-libopenjpeg --enable-libopus --enable-librtmp --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libutvideo --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libxavs --enable-libxvid --enable-zlib
+  libavutil      52.  9.100 / 52.  9.100
+  libavcodec     54. 77.100 / 54. 77.100
+  libavformat    54. 37.100 / 54. 37.100
+  libavdevice    54.  3.100 / 54.  3.100
+  libavfilter     3. 23.102 /  3. 23.102
+  libswscale      2.  1.102 /  2.  1.102
+  libswresample   0. 17.101 /  0. 17.101
+  libpostproc    52.  2.100 / 52.  2.100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000000000212f1c0] Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000000000212f1c0] ISO: File Type Major Brand: isom
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000000000212f1c0] File position before avformat_find_stream_info() is 39288
+[h264 @ 0000000001f7b880] Using externally provided dimensions
+[h264 @ 0000000001f7b880] no picture 
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000000000212f1c0] All info found
+rfps: 7.416667 0.007727
+rfps: 7.416667 0.007727
+rfps: 7.500000 0.000585
+rfps: 7.500000 0.000585
+rfps: 7.583333 0.001583
+rfps: 7.583333 0.001583
+rfps: 7.666667 0.010724
+rfps: 7.666667 0.010724
+rfps: 14.916667 0.012553
+rfps: 14.916667 0.012553
+rfps: 15.000000 0.002339
+rfps: 15.000000 0.002339
+rfps: 15.083333 0.000265
+rfps: 15.166667 0.006333
+rfps: 15.166667 0.006333
+rfps: 22.416667 0.018548
+rfps: 22.500000 0.005262
+rfps: 22.500000 0.005262
+rfps: 22.583333 0.000116
+rfps: 22.583333 0.000116
+rfps: 22.666667 0.003113
+rfps: 22.666667 0.003113
+rfps: 22.750000 0.014250
+rfps: 22.750000 0.014250
+rfps: 30.000000 0.009354
+rfps: 30.000000 0.009354
+rfps: 30.083333 0.001137
+rfps: 30.083333 0.001137
+rfps: 30.166667 0.001061
+rfps: 30.250000 0.009127
+rfps: 30.250000 0.009127
+rfps: 37.500000 0.014616
+rfps: 37.583333 0.003327
+rfps: 37.583333 0.003327
+rfps: 37.666667 0.000179
+rfps: 37.666667 0.000179
+rfps: 37.750000 0.005172
+rfps: 37.833333 0.018308
+rfps: 37.833333 0.018308
+rfps: 45.083333 0.006686
+rfps: 45.083333 0.006686
+rfps: 45.166667 0.000466
+rfps: 45.166667 0.000466
+rfps: 45.250000 0.002387
+rfps: 45.333333 0.012451
+rfps: 45.333333 0.012451
+rfps: 52.583333 0.011214
+rfps: 52.666667 0.001922
+rfps: 52.666667 0.001922
+rfps: 52.750000 0.000772
+rfps: 52.833333 0.007763
+rfps: 29.970030 0.014300
+rfps: 14.985015 0.003575
+rfps: 14.985015 0.003575
+[mov,mp4,m4a,3gp,3g2,mj2 @ 000000000212f1c0] File position after avformat_find_stream_info() is 26489
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'E:\Documentos\Videos\test - 3.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf54.6.100
+  Duration: 00:00:04.12, start: 0.530005, bitrate: 76 kb/s
+    Stream #0:0(und), 21, 1/7532: Video: h264 (High) (avc1 / 0x31637661), yuv420p, 320x240, 41 kb/s, 7.53 fps, 22.58 tbr, 7532 tbn, 15.06 tbc
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und), 40, 1/16000: Audio: aac (mp4a / 0x6134706D), 16000 Hz, mono, s16, 31 kb/s
+    Metadata:
+      handler_name    : SoundHandler
+Output #0, flv, to 'E:\Documentos\Videos\test - 3.flv':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf54.37.100
+    Stream #0:0(und), 0, 1/1000: Video: h264 ([7][0][0][0] / 0x0007), yuv420p, 320x240, q=2-31, 41 kb/s, 7.53 fps, 1k tbn, 7532 tbc
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und), 0, 1/1000: Audio: aac ([10][0][0][0] / 0x000A), 16000 Hz, mono, 31 kb/s
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+No more output streams to write to, finishing.
+frame=   31 fps=0.0 q=-1.0 Lsize=      38kB time=00:00:04.03 bitrate=  77.6kbits/s    
+video:21kB audio:15kB subtitle:0 global headers:0kB muxing overhead 5.924722%
+[AVIOContext @ 000000000212f720] Statistics: 74318 bytes read, 2 seeks

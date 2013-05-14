@@ -1,0 +1,200 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HTML5VideoConverter
+</name>
+</assembly>
+<members>
+<member name="P:HTML5_Video_Converter.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.camera_cinema">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.camera_cinema_50px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.cinema_winscp_100px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.cinema_winscp_133px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.clear_text_36px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.clear_text_42px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.conver_upload">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.conver_upload_40px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.conver_upload_50px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.create_upload">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.delete_35px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.delete_45">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.exit_button">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.exit_button_35px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.exit_button_40">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.ffmpeg">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.html5">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.html5_39px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.HTML5_Logo_256">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.load_icon_20px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.load_icon_20px1">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.load_icon_23px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.load_text_36px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.open_folder_icon_38px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.open_folder_icon2">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.Paste_36px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.Paste_38px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.Paste_40px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.Preview">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.save_icon_20px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.Save_icon_22px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.Save_icon_36px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.save_icon_40px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.save_picture_upload">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.save_picture_upload__37px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.save_text_36px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.screenshot_36px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.screenshot_39px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.screenshot_43px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.videocamera">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.WinSCP_folder">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.WinSCP_folder_39">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.WinSCP_folder_39px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:HTML5_Video_Converter.My.Resources.Resources.WinSCP_Logo_35px">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="T:HTML5_Video_Converter.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+</members>
+</doc>
